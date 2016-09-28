@@ -1,0 +1,19 @@
+{
+  "name": "boardbored-bot",
+  "scripts": {
+    "postdeploy": "bin/deploy",
+    "pr-predestroy": "bin/destroy"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
